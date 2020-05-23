@@ -1,15 +1,15 @@
-import { headerDraw } from "./draw/headerDraw";
-import { createDivWithClass } from "./fequentlyUsedFunctions";
-import { indexDraw } from "./draw/indexDraw";
-import { logInDraw, signUpDraw } from "./draw/logInAndSignUpDraw";
-import { makeAPostDraw } from "./draw/makeAPostDraw";
-import { readDraw } from "./draw/readDraw";
-import { NotFound404Draw } from "./draw/NotFound404Draw";
-import { initLogInEvents } from "./events/logInEvents";
-import { initSignUpEvents } from "./events/singUpEvents";
-import { postCardEventsInit } from "./events/postCardsEvents";
-import { initSearchEvents, serachButtonClick } from "./events/searchEvents";
-import { initMakeAPostEvents } from "./events/makeAPostEvents";
+import { headerDraw } from "./src/draw/headerDraw";
+import { createDivWithClass } from "./src/fequentlyUsedFunctions";
+import { indexDraw } from "./src/draw/indexDraw";
+import { logInDraw, signUpDraw } from "./src/draw/logInAndSignUpDraw";
+import { makeAPostDraw } from "./src/draw/makeAPostDraw";
+import { readDraw } from "./src/draw/readDraw";
+import { NotFound404Draw } from "./src/draw/NotFound404Draw";
+import { initLogInEvents } from "./src/events/logInEvents";
+import { initSignUpEvents } from "./src/events/singUpEvents";
+import { postCardEventsInit } from "./src/events/postCardsEvents";
+import { initSearchEvents, serachButtonClick } from "./src/events/searchEvents";
+import { initMakeAPostEvents } from "./src/events/makeAPostEvents";
 
 const main = createDivWithClass(document.body, "main");
 const urlParams: URLSearchParams = new URLSearchParams(window.location.search);
