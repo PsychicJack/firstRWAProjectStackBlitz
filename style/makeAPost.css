@@ -1,0 +1,99 @@
+.toolbar {
+    border-bottom: solid 1px black;
+    display: flex;
+}
+
+.tool,
+.publish {
+    width: 23px;
+    height: 23px;
+    margin: 0 3px;
+}
+
+.tool button,
+.publish button,
+.tags-div button {
+    width: 100%;
+    border: 0;
+    height: 23px;
+    background-color: white;
+}
+
+.tool button:hover {
+    cursor: pointer;
+    background-color: #2dcaa4;
+    color: white;
+    transition: 0.2s;
+}
+
+.publish {
+    width: 60px;
+}
+
+.publish button,
+.tags-div button {
+    background-color: #915eff;
+    color: white;
+}
+
+.publish button:active,
+.tool button:active,
+.tags-div button:active {
+    transform: translateY(2px);
+}
+
+.publish button:hover {
+    cursor: pointer;
+}
+
+.editor {
+    /*background-color: tomato;*/
+    min-height: 400px;
+    width: cal(95% - 10px);
+    padding: 5px;
+    overflow: auto;
+}
+
+.title-editor {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 5px;
+    border-bottom: solid 1px black;
+}
+
+.tag {
+    width: 100px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 14px;
+    margin: 5px 5px;
+}
+
+.add-tags {
+    width: 28px;
+}
+
+.tags-div {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.tags-div select {
+    width: 100px;
+}
+
+.tags-div button {
+    width: 30px;
+}
+
+.tags-div select,
+.tags-div button {
+    height: 25px;
+    margin: 5px 5px;
+}

@@ -1,0 +1,9 @@
+npm install
+npm install --save-dev webpack webpack-cli webpack-dev-server json-server
+npm install typescript -g
+npm install typescript --save-dev
+npm install ts-loader
+tsc --init                                               // za generisanje fajla tsconfig.json
+npm install babel-cli babel-core --save-dev
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+npm install rxjs --save-dev

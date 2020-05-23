@@ -1,0 +1,19 @@
+.four-o-four, .not-found
+{
+    color: #2dcaa4;
+    text-align: center;
+}
+
+.four-o-four{
+    font-size: 200px;
+}
+
+.not-found{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 399px) {
+    .four-o-four{
+        font-size: 120px;
+    }
+}

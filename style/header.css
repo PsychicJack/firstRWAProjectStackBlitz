@@ -1,0 +1,35 @@
+.header {
+    background-color: #2dcaa4;
+    display: flex;
+}
+
+.logo {
+    flex-grow: 1;
+    font-size: 36px;
+    color: white;
+    margin: 9px 0 9px 25px;
+}
+.logo-text{
+    display: inline;
+}
+.logo-text:hover{
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    color: #2dcaa4;
+    background-color: white;
+    transition: 0.2s;
+}
